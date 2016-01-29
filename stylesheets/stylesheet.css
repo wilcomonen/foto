@@ -15,6 +15,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
+	img{
+vertical-align: middle;	}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -56,8 +59,12 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: url(../fotos/60-JAAR-O&O-19.jpg);
+  background-size: 100% auto;  
+  background-repeat: no-repeat;
+  background-position: left center;
+
+ }
 
 @media screen and (min-width: 64em) {
   .page-header {
